@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="713b33a9-2b33-4e44-b890-71b80b1aafb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/JavadocPachecoMendoza.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavadocPachecoMendoza/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitConflictoPachecoYara/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GitConflictoPachecoYara/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yarap/OneDrive/Documentos/prog-str-YaraPacheco-2C",
+    "last_opened_file_path": "C:/Users/Yara/OneDrive/Documentos/prog-str-YaraPacheco-2C",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +69,7 @@
       <workItem from="1768001103199" duration="63000" />
       <workItem from="1768439355214" duration="2440000" />
       <workItem from="1768783498723" duration="2024000" />
+      <workItem from="1768871875797" duration="2102000" />
     </task>
     <servers />
   </component>

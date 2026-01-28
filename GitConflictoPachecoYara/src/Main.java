@@ -23,7 +23,8 @@ public class Main {
             return scanner.nextDouble();
         }
         public static double calcularTotalConIva ( double subtotal){
-            return subtotal + (subtotal * IVA);
+
+        return subtotal + (subtotal * IVA);
         }
         public static double aplicarDescuentoSiAplica ( double total, double subtotal){
             if (subtotal > UMBRAL_DESCUENTO) {

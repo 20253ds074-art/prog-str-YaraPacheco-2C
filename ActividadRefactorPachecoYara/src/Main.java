@@ -18,9 +18,11 @@ public class Main {
         return scanner.nextInt();
     }
     public static int calcularSuma(int numUno, int numDos, int numTres){
+
         return numUno+numDos+numTres;
     }
     public static double calcularPromedio (int suma){
+
         return suma/3.0;
     }
 
