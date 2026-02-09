@@ -25,8 +25,6 @@ public class Main {
         // Output
         imprimirTicket(pesoKg, distanciaKm, tipoServicio, esZonaRemota, subtotal, iva, total);
     }
-
-
     // Métodos de input
     public static double leerDoubleEnRango(String message, Scanner sc, double min, double max) {
         while (true) {

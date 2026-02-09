@@ -1,9 +1,5 @@
 public class ShippingCalculator {
-
-
     public ShippingCalculator(){
-
-
     }//Constructor por default
     //Constantes
     private final double ZONAREMOTA = 0.10;
@@ -11,14 +7,10 @@ public class ShippingCalculator {
     private final double ESTANDAR = 50;
     private final double EXPRES = 90;
     private final double PRECIOCKG = 12;
-
-
     //Atributos
     public double iva;
     public double subtotal;
     public double total;
-
-
 
 
     public double calcularSubtotal(double pesoKg, int distanciaKm, int tipoServicio, boolean esZonaRemota) {
@@ -32,7 +24,6 @@ public class ShippingCalculator {
             subtotal += EXPRES;
         }
 
-
         // Distancia
         if (distanciaKm <= 50) {
             subtotal += 20;
@@ -41,7 +32,6 @@ public class ShippingCalculator {
         } else {
             subtotal += 120;
         }
-
 
         // Zona remota
         if (esZonaRemota) {
