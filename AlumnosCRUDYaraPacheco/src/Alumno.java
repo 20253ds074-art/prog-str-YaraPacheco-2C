@@ -50,4 +50,5 @@ public class Alumno {
     public String toString() {
         return "| ID: "+id+"|"+"| Alumno: "+nombre+"| Promedio: "+promedio+"| "+ (activo ? "Activo" : "Inactivo");
     }
+
 }
