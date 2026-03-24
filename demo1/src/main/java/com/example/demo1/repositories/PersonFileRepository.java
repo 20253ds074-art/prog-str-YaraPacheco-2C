@@ -9,9 +9,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class PersonFileRepository {
-
     private final Path pathFile= Paths.get("data" , "persons.csv");
-
     private void ensureFile() throws IOException {
 
         if(Files.notExists(pathFile)){
@@ -29,5 +27,4 @@ public class PersonFileRepository {
         Files.writeString(pathFile, line+System.lineSeparator(),
                 StandardCharsets.UTF_8, StandardOpenOption.APPEND);
     }
-
 }

@@ -1,6 +1,5 @@
 package com.example.demo1.controllers;
 
-
 import com.example.demo1.services.PersonService;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -25,7 +24,6 @@ public class AppController {
     @FXML
     private TextField txtAge;
 
-
     private ObservableList<String> data = FXCollections.observableArrayList();
     PersonService service= new PersonService();
 
@@ -34,8 +32,6 @@ public class AppController {
         listView.setItems(data);
         //loadFromFile(); es para recargar info desde el inicio
     }
-
-
 
     @FXML
     public void onReload(){
